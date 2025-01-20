@@ -1,0 +1,56 @@
+
+.quicksand-normal {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+body{
+    background-image:url(../assets/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar{
+    
+    display:flex;
+    justify-content: space-between;
+}
+
+
+.u-list{
+    display:flex;
+    justify-content: space-between;
+    gap:30px;
+}
+.navlinks{
+    text-decoration:none;
+}
+.list-items{
+    list-style: none;
+    
+}
+.btn {
+    margin-right:30px;
+    background:#FEA301;
+    padding:0 30px;
+    color:#ffff;
+    font-size:15px;
+    border-radius:15px;
+    border:none;
+}
+
+#re-menu{
+    display:none;
+}
+@media screen and (max-width:400px){
+  
+
+  .navbar{
+    display:none;
+  }
+  #re-menu{
+    display:block;
+    display:flex;
+    justify-content: space-around;
+  }
+}
