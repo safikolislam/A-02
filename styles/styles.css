@@ -101,10 +101,13 @@ border-radius:10px;
   }
   .hero-area{
     flex-direction: column-reverse;
-    max-width:100%;
+  
     
   }
-  
+  .kids-img{
+    width:100%;
+    height:auto;
+  }
 
   }
   
